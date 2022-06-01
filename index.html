@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Miriam is a female front-end developer based in Bentonville, Arkansas, USA. Miriam's heritage stems from guatemala. Miriam is very capable with HTML, CSS, JavaScript, React, and Python."
+    />
     <title>Homepage Miriam Cabrera</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -38,19 +42,23 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/MCLogo.png" alt="" class="logo d-none d-md-block" />
+        <a href="/" title="homepage">
+          <img
+            src="images/MCLogo.png"
+            alt="Miriam Logo"
+            class="logo d-none d-md-block"
+          />
           <img
             src="images/small-logo.png"
-            alt=""
+            alt="Miriam Logo"
             class="logo d-block d-md-none"
           />
         </a>
         <ul>
-          <li class="active"><a href="/"> Home</a></li>
-          <li><a href="/about.html"> About</a></li>
-          <li><a href="/work.html"> Work</a></li>
-          <li><a href="/contact.html"> Contact</a></li>
+          <li class="active"><a href="/" title="Homepage"> Home</a></li>
+          <li><a href="/about.html" title="About Miriam Cabrera"> About</a></li>
+          <li><a href="/work.html" title="About Miriam's Work"> Work</a></li>
+          <li><a href="/contact.html" title="Contact Miriam"> Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -58,7 +66,11 @@
       <p>👋 Hello, I am</p>
       <h1>Miriam Cabrera</h1>
       <h2 class="mb-5">Front-end developer based in the USA</h2>
-      <div><a href="#" class="btn btn-branding">Contact me</a></div>
+      <div>
+        <a href="/contact.html" class="btn btn-branding" title="contact me"
+          >Contact me</a
+        >
+      </div>
     </div>
     <p class="text-center m-5">
       Recent Projects I have completed through my coursework with SheCodes.
@@ -90,7 +102,9 @@
               as conquering all the stages of development. I love all of these
               women and created this page to offer links to their direct source.
             </p>
-            <a href="#" class="btn btn-branding-outline mb-4">Learn More</a>
+            <a href="/work.html" class="btn btn-branding-outline mb-4"
+              >Learn More</a
+            >
           </div>
         </div>
       </div>
@@ -106,24 +120,25 @@
               weather forcast along with images to display the expected weather.
               It also provides the date and time for any city searched for.
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn More</a>
+            <a
+              href="https://resplendent-boba-a60450.netlify.app"
+              class="btn btn-branding-outline"
+              target="_blank"
+              >Learn More</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
           <img
             src="images/weatherapp.png"
             class="img-fluid"
-            alt="Mom Depot Homepage"
+            alt="Weather app image"
           />
         </div>
       </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img
-            src="images/yoga.png"
-            class="img-fluid"
-            alt="Mom Depot Homepage"
-          />
+          <img src="images/yoga.png" class="img-fluid" alt="Yoga image" />
         </div>
         <div class="col">
           <div class="project-description">
@@ -143,7 +158,7 @@
               as conquering all the stages of development. I love all of these
               women and created this page to offer links to their direct source.
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn More</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
           </div>
         </div>
       </div>
@@ -152,29 +167,50 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding">Contact Me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact Miriam"
+              >Contact Me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center">
-          <a href="mailto:miriamydasilva3@gmail.com" class="email-link mb-4"
+          <a
+            href="mailto:miriamydasilva3@gmail.com"
+            class="email-link mb-4"
+            title="Email Miriam"
             >miriamydasilva3@gmail.com
           </a>
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.github.com/Moremirmir" target="_blank"
+          <a
+            href="https://www.github.com/Moremirmir"
+            target="_blank"
+            title="Github profile"
             ><i class="fa-brands fa-github"></i
           ></a>
-          <a href="https://www.linkedin.com/feed/" target="_blank"
+          <a
+            href="https://www.linkedin.com/feed/"
+            target="_blank"
+            title="Linkedin Profile"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
-          <a href="https://www.instagram.com/moremirmir" target="_blank"
+          <a
+            href="https://www.instagram.com/moremirmir"
+            target="_blank"
+            title="Instagram Profile"
             ><i class="fa-brands fa-instagram"></i
           ></a>
         </div>
+        <p class="text-center mt-4">
+          This project was coded by Miriam Cabrera, and it is
+          <a href="https://gleeful-pegasus-9230a7.netlify.app">open-sourced</a>
+        </p>
       </footer>
     </div>
   </body>
